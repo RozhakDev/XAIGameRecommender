@@ -1,0 +1,63 @@
+# Hugging Face & Sentence Transformers
+**/config_sentence_transformers.json
+.huggingface/
+**/modules.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Secrets & Environment
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+!.env.template
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Machine Learning Artifacts
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ML Cache & Experiment Tracking
+lightning_logs/
+.cache/
+wandb/
+mlruns/
+tensorboard/
+
+# Data & Generated Files
+data/processed/
+artifacts/
+data/raw/
+outputs/
+logs/
+datasets/
+data/interim/
+
+# Streamlit
+.streamlit/config.toml
+
+# AI Agents
+.knowledge-base/
+.agents/
